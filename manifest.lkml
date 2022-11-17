@@ -6,7 +6,7 @@ constant: CONNECTION_NAME {
 }
 
 constant: GCP_PROJECT {
-  value: "silken-sled-368610"
+  value: "My First Project"
   export: override_required
 }
 
