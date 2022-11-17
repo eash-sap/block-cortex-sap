@@ -20,13 +20,16 @@ constant: CLIENT {
   export: override_required
 }
 
+marketplace: {
+  listing: "cortex-sap-operational"
+}
 
 # # Use local_dependency: To enable referencing of another project
 # # on this instance with include: statements
 #
-#local_dependency: {
-#   project: "marketplace_cortex-sap-operational"
-# }
+local_dependency: {
+   project: "marketplace_cortex-sap-operational"
+}
 
 #remote_dependency:  {
 #  url: "https://github.com/eash-sap/block-cortex-sap.git"
