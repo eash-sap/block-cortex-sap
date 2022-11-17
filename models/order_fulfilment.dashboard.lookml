@@ -1,6 +1,6 @@
 
-- dashboard: order_fulfilment
-  title: "[SAP OTC AR] 01: Order Fulfilment"
+- dashboard: cortex_eash
+  title: "01: Order Fulfilment"
   layout: newspaper
   preferred_viewer: dashboards-next
   description: ''
