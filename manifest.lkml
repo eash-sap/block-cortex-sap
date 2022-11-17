@@ -21,13 +21,13 @@ constant: CLIENT {
 }
 
 marketplace: {
-  listing: "cortex-sap-operational"
+  listing: "cortex-poc_eash"
 }
 
 # # Use local_dependency: To enable referencing of another project
 # # on this instance with include: statements
 #
-local_dependency: {
+local_dependency:{
    project: "marketplace_cortex-sap-operational"
 }
 
