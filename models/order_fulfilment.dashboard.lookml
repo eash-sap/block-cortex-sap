@@ -51,7 +51,7 @@
     height: 2
   - title: OTIF%
     name: OTIF%
-    model: cortex_sap_operational
+    model: cortex_poc_eash
     explore: data_intelligence_otc
     type: single_value
     fields: [data_intelligence_otc.OTIFPercentage]
@@ -194,7 +194,7 @@
     height: 7
   - title: Avg Order To Delivery Cycle Time
     name: Avg Order To Delivery Cycle Time
-    model: cortex_sap_operational
+    model: cortex_poc_eash
     explore: data_intelligence_otc
     type: looker_column
     fields: [data_intelligence_otc.product, average_of_order_cycle_time_in_days]
@@ -255,7 +255,7 @@
     height: 7
   - title: In Full%
     name: In Full%
-    model: cortex_sap_operational
+    model: cortex_poc_eash
     explore: data_intelligence_otc
     type: single_value
     fields: [data_intelligence_otc.InFullPercentage]
@@ -326,7 +326,7 @@
     height: 5
   - title: On Time%
     name: On Time%
-    model: cortex_sap_operational
+    model: cortex_poc_eash
     explore: data_intelligence_otc
     type: single_value
     fields: [data_intelligence_otc.OnTimePercentage]
@@ -446,7 +446,7 @@
     height: 2
   - title: Late Delivery %
     name: Late Delivery %
-    model: cortex_sap_operational
+    model: cortex_poc_eash
     explore: data_intelligence_otc
     type: single_value
     fields: [data_intelligence_otc.LateDeliveryPercentage]
@@ -508,7 +508,7 @@
       type: day_range_picker
       display: inline
       options: []
-    model: cortex_sap_operational
+    model: cortex_poc_eash
     explore: data_intelligence_otc
     listens_to_filters: []
     field: data_intelligence_otc.creation_date_year
@@ -536,7 +536,7 @@
       type: checkboxes
       display: popover
       options: []
-    model: cortex_sap_operational
+    model: cortex_poc_eash
     explore: data_intelligence_otc
     listens_to_filters: []
     field: data_intelligence_otc.sales_org
@@ -550,7 +550,7 @@
       type: checkboxes
       display: popover
       options: []
-    model: cortex_sap_operational
+    model: cortex_poc_eash
     explore: data_intelligence_otc
     listens_to_filters: []
     field: data_intelligence_otc.distribution_channel
@@ -564,7 +564,7 @@
       type: checkboxes
       display: popover
       options: []
-    model: cortex_sap_operational
+    model: cortex_poc_eash
     explore: data_intelligence_otc
     listens_to_filters: []
     field: data_intelligence_otc.division
@@ -578,7 +578,7 @@
       type: tag_list
       display: popover
       options: []
-    model: cortex_sap_operational
+    model: cortex_poc_eash
     explore: data_intelligence_otc
     listens_to_filters: []
     field: data_intelligence_otc.product
@@ -592,7 +592,7 @@
       type: dropdown_menu
       display: inline
       options: []
-    model: cortex_sap_operational
+    model: cortex_poc_eash
     explore: data_intelligence_otc
     listens_to_filters: []
     field: data_intelligence_otc.Currency_Required
